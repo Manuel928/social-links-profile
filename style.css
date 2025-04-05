@@ -65,26 +65,18 @@ body {
 
 .item {
     background-color: hsl(0, 0%, 20%);
+    border: none;
     padding: 10px;
     border-radius: 10px;
+    font-weight: 600;
     font-size: 14px;
     transition: 0.1s ease-in;
+    color: white;
 }
 
 .item:hover {
     background-color: hsl(75, 94%, 57%);
-}
-
-.item a {
-    text-align: center;
-    color: hsl(0, 0%, 100%);
-    display: block;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.item a:hover {
-    color: inherit;
+    color: hsl(0, 0%, 20%);
 }
 
 @media(max-width: 768px) {
